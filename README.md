@@ -2,7 +2,5 @@
 
 ## Description
 
-These are some of my solutions to the first ten [Project Euler](http://www.projecteuler.net/) problems. Probably not the fanciest or the most performant, but they get the job done.
-
-The C, Clojure, and Ruby solutions are "complete" insofar as they work; the Haskell solutions are still in progress.
+These are some of my solutions to the first ten [Project Euler](http://www.projecteuler.net/) problems in C, Clojure, Haskell, and Ruby. Probably not the fanciest or the most performant, but they get the job done. More problems/languages probably on the way at some point.
 
