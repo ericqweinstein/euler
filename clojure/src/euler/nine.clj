@@ -1,17 +1,20 @@
 (ns euler.nine)
 
-(defn square [n]
+(defn square
   "Squares a number."
+  [n]
   (* n n))
 
-(defn triple? [a, b, c]
+(defn triple?
   "Checks whether a vector of integers
   constitutes a Pythagorean triple."
+  [a b c]
   (= (+ (square a) (square b)) (square c)))
 
-(defn problem-nine [n]
+(defn problem-nine
   "Finds the Pythagorean triple
   whose elements sum to 1000."
+  [n]
   (for [a (range 1 n)
         b (range a n)
         c [(- 1000 a b)]
