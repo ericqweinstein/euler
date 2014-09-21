@@ -1,10 +1,5 @@
-(ns euler.seven)
-
-(defn prime?
-  "Leverages Java interop to check
-  whether a number is prime."
-  [n]
-  (.isProbablePrime (BigInteger/valueOf n) 10))
+(ns euler.seven
+  (:require [euler.utils :refer [prime?]]))
 
 (defn problem-seven
   "Finds the 10,001st prime number."

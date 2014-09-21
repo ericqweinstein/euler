@@ -1,10 +1,5 @@
-(ns euler.ten)
-
-(defn prime?
-  "Leverages Java interop to check
-  whether a number is prime."
-  [n]
-  (.isProbablePrime (BigInteger/valueOf n) 10))
+(ns euler.ten
+  (:require [euler.utils :refer [prime?]]))
 
 (defn problem-ten
   "Finds the sum of all prime

@@ -1,9 +1,5 @@
-(ns euler.nine)
-
-(defn square
-  "Squares a number."
-  [n]
-  (* n n))
+(ns euler.nine
+  (:require [euler.utils :refer [square]]))
 
 (defn triple?
   "Checks whether a vector of integers
