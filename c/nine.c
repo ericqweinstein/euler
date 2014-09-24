@@ -18,7 +18,6 @@ int main(void)
   return tripleProduct;
 
   // Answer: 31875000
-
 }
 
 int findTriple(int sum)
@@ -44,4 +43,3 @@ int findTriple(int sum)
   }
   return result;
 }
-

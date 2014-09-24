@@ -18,7 +18,6 @@ int main(void)
   return result;
 
   // Answer: 25164150
-
 }
 
 int squareOfSum(int limit)
@@ -42,4 +41,3 @@ int sumOfSquares(int limit)
   }
   return current;
 }
-

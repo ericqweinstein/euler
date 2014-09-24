@@ -35,7 +35,6 @@ int main(void)
   return largestPalindrome;
 
   // Answer: 906609
-
 }
 
 int isPalindrome(int n)
@@ -63,4 +62,3 @@ int isPalindrome(int n)
   return resultOfComparison;
   // Will be 0 for palindromes
 }
-

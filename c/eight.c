@@ -35,6 +35,4 @@ int main(void)
   return largestProduct;
 
   // Answer: 40824
-
 }
-

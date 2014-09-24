@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * *
  * Project Euler Problem Number Two:
- * 
+ *
  * For values of the Fibonacci sequence
  * below four million, find the sum of
  * the even-numbered values.
@@ -32,7 +32,6 @@ int main(void)
   return sum;
 
   // Answer: 4613732
-
 }
 
 int fibNext(int first, int second)
@@ -40,4 +39,3 @@ int fibNext(int first, int second)
   // Does not handle the first two entries
   return first + second;
 }
-

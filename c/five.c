@@ -36,6 +36,4 @@ int main(void)
   return lcm;
 
   // Answer: 232792560
-
 }
-

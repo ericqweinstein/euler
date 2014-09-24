@@ -17,7 +17,6 @@ int main(void)
   return result;
 
   // Answer: 104743
-
 }
 
 int nthPrime(int n)
@@ -49,4 +48,3 @@ int nthPrime(int n)
   }
   return nthPrime;
 }
-

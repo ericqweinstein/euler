@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * *
  * Project Euler Problem Number Three:
- * 
+ *
  * What is the largest prime factor of
  * the number 600851475143?
  * * * * * * * * * * * * * * * * * * */
@@ -33,6 +33,4 @@ int main(void)
   return factor;
 
   // Answer: 6857
-
 }
-

@@ -24,7 +24,6 @@ uint64_t main(void)
   return result;
 
   // Answer: 142913828922
-
 }
 
 uint64_t sumPrimes(int limit)
@@ -57,4 +56,3 @@ bool isPrime(int n)
 
   return isPrime;
 }
-

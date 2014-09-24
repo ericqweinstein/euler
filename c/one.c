@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * * *
  * Project Euler Problem Number One:
- * 
+ *
  * Add all the natural numbers below 1000
  * that are multiples of three or five.
  * * * * * * * * * * * * * * * * * * * */
@@ -24,11 +24,9 @@ int main(void)
     {
       runningTotal += i;
     }
-  } 
+  }
   printf("%d\n", runningTotal);
   return runningTotal;
 
   // Answer: 233168
-
 }
-
